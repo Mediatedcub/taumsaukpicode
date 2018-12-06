@@ -61,7 +61,7 @@
          var table = $('#tableID');
          // refresh every 5 seconds
          var refresher = setInterval(function(){
-          table.load("table.php");
+          table.load("table.php"); //should be the same name as the file
          }, 5000);
          setTimeout(function() {
           clearInterval(refresher);
